@@ -13,7 +13,8 @@ export function CcfullstackUiCard({ account, ccfullstack }: { account: UiWalletA
       <CardHeader>
         <CardTitle>Ccfullstack: {ccfullstack.data.count}</CardTitle>
         <CardDescription>
-          Account: <AppExplorerLink address={ccfullstack.address} label={ellipsify(ccfullstack.address)} />
+          Account: <AppExplorerLink address={ccfullstack.address} label={ellipsify(ccfullstack.address)} /> <br />
+         
         </CardDescription>
       </CardHeader>
       <CardContent>
