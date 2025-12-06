@@ -6,13 +6,13 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-ccfullstack = "Count3AcZucFDPSFBAeHkQ6AvttieKUkyJ8HiQGhQwe"
+ccfullstack = "32HwkraijDSzpJiueQnqXXr5ZQziYtpfRBJbXV6UGHCX"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
