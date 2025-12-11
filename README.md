@@ -88,3 +88,4 @@ Build the app
 npm run build
 ```
 # counter-fullstack
+# counter-frontend
