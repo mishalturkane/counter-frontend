@@ -40,7 +40,7 @@ const CounterDappHero: React.FC = () => {
                 Explore Features
               </a>
               <a 
-                href="https://github.com" 
+                href="https://github.com/mishalturkane/counter-frontend" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-8 py-3 border-2 border-gray-800 dark:border-gray-300 font-semibold rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300"
@@ -177,7 +177,7 @@ const CounterDappHero: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="#" 
+                href="https://counter-frontend-xi.vercel.app/create-counter" 
                 className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-all duration-300"
               >
                 Try Live Demo
