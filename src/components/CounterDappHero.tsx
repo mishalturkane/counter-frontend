@@ -3,9 +3,8 @@ import React from 'react';
 const CounterDappHero: React.FC = () => {
   return (
     // Outer container (Full-width, responsible for background)
-    <div className="min-h-screen  bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-black text-gray-900 dark:text-white transition-colors duration-300">
-      
-      {/* Content Container - Removed 'container mx-auto px-4' for full edge-to-edge content */}
+   <div className="min-h-screen bg-white dark:bg-[#0a0a0a] text-gray-900 dark:text-white transition-colors duration-300">
+     {/* Content Container - Removed 'container mx-auto px-4' for full edge-to-edge content */}
       {/* Added horizontal padding (px-4/px-8) directly to the content areas for readability */}
       <div className="w-full  md:py-24">
         
@@ -177,7 +176,7 @@ const CounterDappHero: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://counter-frontend-xi.vercel.app/create-counter" 
+                href="https://create-counter.vercel.app/create-counter" 
                 className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition-all duration-300"
               >
                 Try Live Demo
