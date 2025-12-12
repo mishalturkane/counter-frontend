@@ -8,7 +8,7 @@ export function CcfullstackUiButtonInitialize({ account }: { account: UiWalletAc
 
   return (
     <Button onClick={() => mutationInitialize.mutateAsync()} disabled={mutationInitialize.isPending}>
-      Initialize Ccfullstack {mutationInitialize.isPending && '...'}
+      Initialize counter {mutationInitialize.isPending && '...'}
     </Button>
   )
 }

@@ -22,7 +22,7 @@ export function useCcfullstackInitializeMutation({ account }: { account: UiWalle
       const ccfullstack = await generateKeyPairSigner()
       return await signAndSend(getInitializeInstruction({ payer: signer, ccfullstack }), signer)
     },
-    onSuccess: async (tx) => {
+    onSuccess: async (tx) => { 
       toastTx(tx)
       await queryClient.invalidateQueries({ queryKey: ['ccfullstack', 'accounts', { cluster }] })
     },

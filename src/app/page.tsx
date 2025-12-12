@@ -1,5 +1,11 @@
-import DashboardFeature from '@/features/dashboard/dashboard-feature'
+import CounterDappHero from '../components/CounterDappHero';
 
-export default function Home() {
-  return <DashboardFeature />
+export default function HomePage() {
+  return (
+    <>
+      {/* Your existing Nav component */}
+      <CounterDappHero />
+      {/* Your existing Footer component */}
+    </>
+  );
 }

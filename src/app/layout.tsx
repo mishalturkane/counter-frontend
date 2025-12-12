@@ -22,7 +22,7 @@ const links: { label: string; path: string }[] = [
   // More links...
   { label: 'Home', path: '/' },
   { label: 'Account', path: '/account' },
-  { label: 'Ccfullstack Program', path: '/ccfullstack' },
+  { label: 'creacte counter', path: '/create-counter' },
 ]
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

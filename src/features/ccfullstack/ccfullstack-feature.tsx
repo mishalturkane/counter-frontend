@@ -12,7 +12,7 @@ export default function CcfullstackFeature() {
   return (
     <CcfullstackUiProgramGuard>
       <AppHero
-        title="Ccfullstack"
+        title="create the counter"
         subtitle={
           account
             ? "Initialize a new ccfullstack onchain by clicking the button. Use the program's methods (increment, decrement, set, and close) to change the state of the account."
